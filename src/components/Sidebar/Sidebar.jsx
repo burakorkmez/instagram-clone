@@ -21,7 +21,7 @@ const Sidebar = () => {
 		>
 			<Flex direction={"column"} gap={10} w='full' height={"full"}>
 				<Link to={"/"} as={RouterLink} pl={2} display={{ base: "none", md: "block" }} cursor='pointer'>
-					<InstagramLogo />
+					<InstagramLogo height="29" viewBox="32 4 113 32" width="103" />
 				</Link>
 				<Link
 					to={"/"}
